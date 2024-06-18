@@ -216,7 +216,7 @@ which enable functionalities that are characteristic of IDEs.
 The [Python extension] comes with a debugger to allow interactive inspection of
 variables when running a script.
 
-There is also a [Juypter extension] which can work from existing Conda
+There is also a [Jupyter extension] which can work from existing Conda
 environments without the need to manage a notebook server.
 
 > [!TIP]
@@ -224,6 +224,7 @@ environments without the need to manage a notebook server.
 >
 > ![notebook diff example](https://code.visualstudio.com/assets/docs/datascience/jupyter/notebook-diffing.png)
 
+[Python extension]: https://code.visualstudio.com/docs/languages/python
 [Jupyter extension]: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
 [notebook diffing]: https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_custom-notebook-diffing
 

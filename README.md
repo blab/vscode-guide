@@ -122,6 +122,15 @@ Learn more: [Using Git source control in VS Code](https://code.visualstudio.com/
 
 ## Working from a remote SSH host (e.g. `rhino`)
 
+> [!WARNING]
+> As of March 2025, the version of Linux used by `rhino` [no longer works] with
+> the latest version of VS Code. A workaround is to use [version 1.98] or older.
+> Download from the link and install it as you would normally. To keep using the
+> latest version of VS Code separately, you can rename the old version to
+> distinguish the two. Finally, make sure to turn off auto updates by going to
+> User Settings and setting Update Mode to `none` (note: this will apply to all
+> VS Code installations).
+
 Sometimes you may want to do work on a remote server. The normal process would
 be to open a terminal, connect using `ssh`, and do stuff within the terminal.
 
@@ -150,6 +159,8 @@ These steps describe how to connect VS Code to the `rhino` Hutch cluster.
 > [!TIP]
 > You can use the Explorer to upload/download files.
 
+[no longer works]: https://code.visualstudio.com/docs/remote/faq#_can-i-run-vs-code-server-on-older-linux-distributions
+[version 1.98]: https://code.visualstudio.com/updates/v1_98
 [Remote - SSH]: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
 [ways around that]: https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication
 
